@@ -1,0 +1,125 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom right, #74ebd5, #ACB6E5); /* Beautiful gradient background */
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Translucent header background */
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #2C3E50;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #34495E;
+}
+
+#portfolio-image-container {
+    margin: 20px 0;
+}
+
+#portfolio-image-container img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+/* Navigation Styling */
+nav {
+    text-align: center;
+    background-color: #2980B9;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #74ebd5;
+}
+
+/* Section Styling */
+section {
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    margin: 20px;
+    border-radius: 10px;
+}
+
+section h2 {
+    font-size: 2.5em;
+    color: #2C3E50;
+    text-align: center;
+}
+
+section p, section .project {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.project h3 {
+    color: #2980B9;
+}
+
+/* Skills Section Styling */
+.skill-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.skill {
+    text-align: center;
+}
+
+.skill img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.skill span {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #34495E;
+    color: white;
+}
+
